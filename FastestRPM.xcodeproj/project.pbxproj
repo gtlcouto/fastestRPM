@@ -13,6 +13,8 @@
 		35189D2B1CE4FA4200825A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35189D291CE4FA4200825A8E /* Main.storyboard */; };
 		35189D2D1CE4FA4200825A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35189D2C1CE4FA4200825A8E /* Assets.xcassets */; };
 		35189D301CE4FA4200825A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35189D2E1CE4FA4200825A8E /* LaunchScreen.storyboard */; };
+		35189D381CE4FB5800825A8E /* speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 35189D371CE4FB5800825A8E /* speedometer.png */; };
+		35189D3A1CE4FB6B00825A8E /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 35189D391CE4FB6B00825A8E /* needle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		35189D2C1CE4FA4200825A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35189D2F1CE4FA4200825A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35189D311CE4FA4200825A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35189D371CE4FB5800825A8E /* speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speedometer.png; sourceTree = "<group>"; };
+		35189D391CE4FB6B00825A8E /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		35189D1F1CE4FA4200825A8E /* FastestRPM */ = {
 			isa = PBXGroup;
 			children = (
+				35189D371CE4FB5800825A8E /* speedometer.png */,
+				35189D391CE4FB6B00825A8E /* needle.png */,
 				35189D231CE4FA4200825A8E /* AppDelegate.h */,
 				35189D241CE4FA4200825A8E /* AppDelegate.m */,
 				35189D261CE4FA4200825A8E /* ViewController.h */,
@@ -137,8 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35189D301CE4FA4200825A8E /* LaunchScreen.storyboard in Resources */,
+				35189D3A1CE4FB6B00825A8E /* needle.png in Resources */,
 				35189D2D1CE4FA4200825A8E /* Assets.xcassets in Resources */,
 				35189D2B1CE4FA4200825A8E /* Main.storyboard in Resources */,
+				35189D381CE4FB5800825A8E /* speedometer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
